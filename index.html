@@ -21,81 +21,29 @@ body {
   overflow-x:hidden;
   overflow-y:hidden;
 }
-.flexbox {
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  margin-top: 50px;
-  padding-left: 50px;
-}
-.image {
-  max-width: 100%;
-  align-items: center;
-  z-index: 5;
 
-}
-
-.image-hover {
-  z-index: 6;
-  width: 100%;
-  opacity: .5;
-  transition: opacity .8s;
-}
-
-.airplane:hover img.image-hover {
-  opacity: .5;
-}
-
-.airplane img.image-hover {
-  position: absolute;
-  width: 100%;
-  opacity: 0;
-  transition: opacity .2s;
-  width: 100%;
-  animation: glow;
-}
-
-.airplane:hover img.image {
-  opacity: 0;
-  position: absolute;
-}
-
-
-.airplane {
-  position: relative;
-  max-width: 500px; /* can be omitted for a regular non-lazy image */
-  max-width: 100%;
-  margin-top: 50px;
-}
-.airplane img.image-hover {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  object-fit: contain;
-  opacity: 0;
-  transition: opacity .6s;
- 
-}
-.airplane:hover img.image-hover {
-  opacity: 1;
-}
+ head-container {
+   width: 80%;
+  }
+  
+  
+  
 </style>
   </head>
   <body>
+    
+  
+      <div class="head-container">
 
-    <div class="flexbox">
-<p class="typing">i'm going through something...</p>    </div>
+    <div class="header-div"><img class="header-img" src="LC_header.png"></div>
 
-<div class="airplane">
-  <a href="home.html">
-    <img class="image" src="planewebpng.png">
-    <img class="image-hover" src="planeglow2.png">
-  </a>
-</div>
+  </div>
+    
+    <div class="body-container">
+      <p>LA lady rock since 2022</p>
+    
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2OoqV1v8yMXbwM8ykwMyxJ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-
+    </div>
   <body>
   </html>
